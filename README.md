@@ -78,7 +78,7 @@ index.html
 
 # 📫 Contato
 
-💼 LinkedIn: www.linkedin.com/in/cassiane-m-nascimento
+💼 LinkedIn: www.linkedin.com/in/cassiane-m-nascimento<br>
 📧 Email: cassynascimento28@gmail.com
 
 ---
