@@ -15,7 +15,7 @@ https://cassymari.github.io/Portfolio-profissional/
 
 # 📸 Preview do projeto
 
-<img src="assets/preview.png" alt="Preview do portfólio" width="800">
+<img src="assets/portfolio-profissional.jpeg" alt="Preview do portfólio" width="800">
 
 ---
 
