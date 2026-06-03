@@ -235,7 +235,6 @@ transform:scale(1.08);
 
 /* PROJETOS */
 
-/* SEÇÃO PROJETOS */
 
 #projetos{
 max-width:1200px;
@@ -325,7 +324,7 @@ background:#ff79c6;
 transform:scale(1.05);
 }
 
-/* SKILLS */
+
 
 /* SKILLS */
 
@@ -363,7 +362,6 @@ transform:scale(1.08);
 box-shadow:0 0 10px #ff2d95;
 }
 
-/* CONTATO */
 
 /* CONTATO */
 
@@ -515,4 +513,88 @@ transform:translateY(0);
 
 #projetos{
 margin-top:80px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+
+  background: #25d366;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 30px;
+
+  text-decoration: none;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,.3);
+
+  z-index: 999;
+  transition: .3s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+
+/* SOBRE */
+
+.about {
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  color: #ff79c6;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.about-card {
+  max-width: 900px;
+  margin: auto;
+
+  padding: 35px;
+
+  background: #120012;
+
+  border-radius: 20px;
+
+  border: 1px solid rgba(255, 45, 149, 0.2);
+
+  box-shadow:
+    0 0 20px rgba(255, 45, 149, 0.08);
+
+  transition: .3s;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 0 25px rgba(255, 45, 149, 0.25),
+    0 0 50px rgba(255, 45, 149, 0.08);
+}
+
+.about-card p {
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.9;
+  margin-bottom: 18px;
+}
+
+.about-card strong {
+  color: #ff79c6;
 }
