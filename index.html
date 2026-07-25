@@ -3,272 +3,1152 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Portfólio de Cassiane M. Nascimento, desenvolvedora Full Stack com projetos em React, Node.js, Prisma e bancos de dados."
+  >
 
   <title>Cassiane Nascimento | Full Stack Developer</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  >
+
   <link rel="stylesheet" href="./styles.css">
-
-
 </head>
 
 <body>
 
+  <!-- MENU -->
+  <header class="header">
+
+    <a href="#inicio" class="logo">
+      Cassiane<span>.dev</span>
+    </a>
+
+    <nav class="nav" aria-label="Navegação principal">
+
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+
+    </nav>
+
+    <a
+      href="#contato"
+      class="header-contact"
+    >
+      Vamos conversar
+    </a>
+
+  </header>
 
 
+  <main>
 
-  <!-- HERO -->
+    <!-- INÍCIO -->
+    <section id="inicio" class="hero">
 
-  <section class="hero">
-    <div class="codigo-bg">
+      <div class="codigo-bg" aria-hidden="true">
 
-      <span>const developer = "Cassiane";</span>
-      <span>const stack = "Full Stack";</span>
-      <span>React + Node.js</span>
-      <span>Prisma ORM</span>
-      <span>MySQL & MongoDB</span>
-      <span>API REST</span>
+        <span>const developer = "Cassiane";</span>
+        <span>const stack = "Full Stack";</span>
+        <span>React + Node.js</span>
+        <span>Prisma ORM</span>
+        <span>PostgreSQL & MongoDB</span>
+        <span>API REST</span>
 
-    </div>
-
-    <div class="foto-container">
-
-      <div class="orbita">
-        <div class="bolinha"></div>
       </div>
 
-      <img src="./assets/eu.jpeg" class="foto">
+      <div class="hero-content">
 
-    </div>
+        <div class="foto-container">
 
-    <p class="cargo">FULL STACK DEVELOPER</p>
+          <div class="orbita">
+            <div class="bolinha"></div>
+          </div>
 
-    <h1 class="typing">Cassiane M. Nascimento</h1>
+          <img
+            src="./assets/eu.jpeg"
+            class="foto"
+            alt="Foto profissional de Cassiane M. Nascimento"
+          >
 
-    <p class="descricao">
-      Desenvolvo aplicações web completas, criando interfaces modernas,
-      APIs escaláveis e integrações com bancos de dados utilizando
-      React, Node.js, Prisma, MySQL e MongoDB.
-    </p>
+        </div>
 
-    <div class="botoes">
+        <p class="cargo">
+          <span></span>
+          FULL STACK DEVELOPER
+          <span></span>
+        </p>
 
-      <a href="#projetos" class="botao-neon">
-        🚀 Ver Projetos
-      </a>
+        <h1 class="typing">
+          Cassiane M. Nascimento
+        </h1>
 
-      <a href="#contato" class="botao-neon">
-        Falar Comigo
-      </a>
+        <p class="descricao hero-description">
+          Desenvolvedora Full Stack focada na criação de aplicações modernas,
+          responsivas e funcionais, utilizando React, Node.js, APIs REST e
+          bancos de dados.
+        </p>
 
-    </div>
+        <div class="botoes">
 
-  </section>
+          <a href="#projetos" class="botao-neon botao-primary">
+            <i class="fa-solid fa-code"></i>
+            Ver projetos
+          </a>
 
- <section id="sobre" class="about reveal">
+          <a href="#contato" class="botao-neon botao-secondary">
+            <i class="fa-regular fa-message"></i>
+            Falar comigo
+          </a>
 
-  <h2>Sobre Mim</h2>
+        </div>
 
-  <div class="about-card">
+        <div class="hero-links">
 
-    <p>
-      Sou desenvolvedora <strong>Full Stack</strong> especializada no
-      ecossistema JavaScript, construindo aplicações web completas desde a
-      interface do usuário até o desenvolvimento de APIs e integração com
-      bancos de dados.
-    </p>
+          <a
+            href="https://github.com/cassymari"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub de Cassiane"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
 
-    <p>
-      Trabalho com <strong>React, Node.js, Express, Prisma, MySQL e MongoDB</strong>,
-      criando soluções modernas, escaláveis e alinhadas às boas práticas de
-      desenvolvimento.
-    </p>
+          <a
+            href="https://www.linkedin.com/in/cassiane-m-nascimento"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn de Cassiane"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
 
-  </div>
+          <a
+            href="mailto:cassynascimento28@gmail.com"
+            aria-label="Enviar e-mail para Cassiane"
+          >
+            <i class="fa-regular fa-envelope"></i>
+          </a>
 
-</section>
-
-  <section id="skills" class="reveal">
-
-    <h2>Habilidades</h2>
-
-    <div class="skills">
-
-      <div class="skill">⚛️ React</div>
-      <div class="skill">🟢 Node.js</div>
-      <div class="skill">⚡ JavaScript</div>
-      <div class="skill">🔷 Prisma ORM</div>
-      <div class="skill">🗄️ MySQL</div>
-      <div class="skill">🍃 MongoDB</div>
-      <div class="skill">🔌 REST API</div>
-      <div class="skill">🌐 Git</div>
-      <div class="skill">🐱 GitHub</div>
-      <div class="skill">📱 Responsividade</div>
-
-    </div>
-
-  </section>
-
-  <!-- PROJETOS -->
-
-  <section id="projetos" class="reveal">
-
-    <h2>Projetos em Destaque</h2>
-
-    <p class="descricao">
-      Aplicações desenvolvidas utilizando tecnologias modernas de Front-end,
-      Back-end e bancos de dados.
-    </p>
-
-    <div class="project">
-
-      <img src="./assets/C1.jpeg" class="project-img">
-
-      <h3>Cadastro de Usuários</h3>
-
-      <p>
-        Aplicação Full Stack desenvolvida com React, Node.js, Prisma e banco
-        de dados. Permite cadastrar, listar e excluir usuários através de uma
-        interface moderna integrada a uma API REST.
-      </p>
-
-      <div class="buttons">
-        <a class="btn" href="cassymari.github.io/cadastro-de-usuarios">Ver Projeto</a>
-        <a class="btn" href="https://github.com/cassymari/cadastro-de-usuarios">Código</a>
-      </div>
-
-    </div>
-
-
-    <div class="project">
-      <img src="./assets/convert3.jpeg" class="project-img">
-
-      <h3>Conversor de Moedas</h3>
-      <p>Aplicação que converte moedas automaticamente.</p>
-
-      <div class="buttons">
-        <a class="btn" href=" https://cassymari.github.io/conversor-de-moeda/">Ver Projeto</a>
-        <a class="btn" href="https://github.com/cassymari/conversor-de-moeda">Código</a>
-      </div>
-
-    </div>
-
-    <div class="project">
-      <img src="./assets/senha.jpeg" class="project-img">
-      <h3>Gerador de Senhas</h3>
-      <p>Gerador de senhas seguras com JavaScript.</p>
-
-      <div class="buttons">
-        <a class="btn" href="https://cassymari.github.io/Gerador-de-senhas/">Ver Projeto</a>
-        <a class="btn" href="https://github.com/cassymari/Gerador-de-senhas">Código</a>
-      </div>
-
-    </div>
-
-    <div class="project">
-      <img src="./assets/sorteio.jpeg" class="project-img">
-      <h3>DevSorteio</h3>
-      <p>Sorteador de números.</p>
-
-      <div class="buttons">
-        <a class="btn" href="https://cassymari.github.io/Dev-Sorteioo/">Ver Projeto</a>
-        <a class="btn" href="https://github.com/cassymari/Dev-Sorteioo">Código</a>
-      </div>
-
-    </div>
-
-    <div class="project">
-      <img src="./assets/memoria.jpeg" class="project-img">
-      <h3>Jogo da Memória</h3>
-      <p>Jogo interativo desenvolvido com JavaScript contendo:<br>
-        ✅ Cronômetro<br>
-        ✅ Animação 3D de virar carta<br>
-        ✅ Sistema de níveis (4x4 / 6x6)
-
-      </p>
-
-      <div class="buttons">
-        <a class="btn" href="https://cassymari.github.io/Jogo-da-memoria/">Ver Projeto</a>
-        <a class="btn" href="https://github.com/cassymari/Jogo-da-memoria">Código</a>
-      </div>
-
-    </div>
-
-    <div class="project">
-      <img src="./assets/jokenpo.jpeg" class="project-img">
-      <h3>Dev-Jokenpô</h3>
-      <p>Jogo de Pedra, Papel, Tesoura contra o computador.</p>
-
-      <div class="buttons">
-        <a class="btn" href=" https://cassymari.github.io/Game-Jokenpo./">Ver Projeto</a>
-        <a class="btn" href="https://github.com/cassymari/Game-Jokenpo.">Código</a>
-      </div>
-
-    </div>
-
-    <div class="projects">
-
-      <div class="project">
-
-        <img src="./assets/calculadora.jpeg" class="project-img">
-
-
-        <h3>Calculadora</h3>
-        <p>Calculadora funcional criada com JavaScript.</p>
-
-        <div class="buttons">
-          <a class="btn" href="https://cassymari.github.io/calculadora/">Ver Projeto</a>
-          <a class="btn" href="https://github.com/cassymari/calculadora/blob/main/index.html">Código</a>
         </div>
 
       </div>
 
-
-
-    </div>
-
-  </section>
-
-  <!-- SKILLS -->
-
-
-
-  <!-- CONTATO -->
-
-  <section id="contato" class="contact reveal">
-
-    <h2>Contato</h2>
-
-    <div class="contact-buttons">
-
-      <a href="https://github.com/cassymari" target="_blank" class="contact-btn">
-        <i class="fa-brands fa-github"></i> GitHub
+      <a href="#sobre" class="scroll-down" aria-label="Ir para a seção Sobre">
+        <span>Conheça meu trabalho</span>
+        <i class="fa-solid fa-arrow-down"></i>
       </a>
 
-      <a href="https://www.linkedin.com/in/cassiane-m-nascimento" target="_blank" class="contact-btn">
-        <i class="fa-brands fa-linkedin"></i> LinkedIn
-      </a>
-
-      <a href="mailto:cassynascimento28@gmail.com" class="contact-btn">
-        <i class="fa-solid fa-envelope"></i> Email
-      </a>
-
-      <a href="https://wa.me/5521995874864?text=Olá%20vi%20seu%20portfólio" target="_blank" class="contact-btn">
-        <i class="fa-brands fa-whatsapp"></i> WhatsApp
-      </a>
-
-    </div>
-
-  </section>
+    </section>
 
 
+    <!-- SOBRE -->
+    <section id="sobre" class="about section reveal">
 
+      <div class="section-header">
+
+        <span class="section-label">Sobre mim</span>
+
+        <h2>
+          Transformando ideias em
+          <span>experiências digitais</span>
+        </h2>
+
+        <p>
+          Conheça um pouco da minha trajetória e da forma como desenvolvo
+          soluções para a web.
+        </p>
+
+      </div>
+
+      <div class="about-content">
+
+        <div class="about-card">
+
+          <span class="about-number">01</span>
+
+          <h3>Quem sou</h3>
+
+          <p>
+            Sou desenvolvedora <strong>Full Stack</strong> com foco no
+            ecossistema JavaScript. Desenvolvo aplicações completas, desde a
+            criação da interface até a integração com APIs e bancos de dados.
+          </p>
+
+          <p>
+            Gosto de transformar ideias em soluções funcionais, modernas e
+            intuitivas, sempre buscando evoluir minhas habilidades e aplicar
+            boas práticas de desenvolvimento.
+          </p>
+
+        </div>
+
+        <div class="about-highlights">
+
+          <div class="highlight-card">
+
+            <i class="fa-solid fa-laptop-code"></i>
+
+            <div>
+              <strong>Front-end moderno</strong>
+              <span>Interfaces responsivas e intuitivas com React.</span>
+            </div>
+
+          </div>
+
+          <div class="highlight-card">
+
+            <i class="fa-solid fa-server"></i>
+
+            <div>
+              <strong>Back-end e APIs</strong>
+              <span>APIs REST desenvolvidas com Node.js e Express.</span>
+            </div>
+
+          </div>
+
+          <div class="highlight-card">
+
+            <i class="fa-solid fa-database"></i>
+
+            <div>
+              <strong>Bancos de dados</strong>
+              <span>Integrações com PostgreSQL, MySQL e MongoDB.</span>
+            </div>
+
+          </div>
+
+          <div class="highlight-card">
+
+            <i class="fa-solid fa-rocket"></i>
+
+            <div>
+              <strong>Aplicações publicadas</strong>
+              <span>Projetos disponíveis para uso e visualização online.</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- HABILIDADES -->
+    <section id="skills" class="section skills-section reveal">
+
+      <div class="section-header">
+
+        <span class="section-label">Tecnologias</span>
+
+        <h2>
+          Ferramentas que utilizo para
+          <span>desenvolver projetos</span>
+        </h2>
+
+        <p>
+          Tecnologias utilizadas na criação de interfaces, APIs, bancos de
+          dados e publicação de aplicações.
+        </p>
+
+      </div>
+
+      <div class="skills-categories">
+
+        <article class="skill-category">
+
+          <div class="skill-category-header">
+
+            <i class="fa-solid fa-display"></i>
+
+            <div>
+              <span>01</span>
+              <h3>Front-end</h3>
+            </div>
+
+          </div>
+
+          <div class="skills">
+
+            <div class="skill">
+              <i class="fa-brands fa-html5"></i>
+              HTML
+            </div>
+
+            <div class="skill">
+              <i class="fa-brands fa-css3-alt"></i>
+              CSS
+            </div>
+
+            <div class="skill">
+              <i class="fa-brands fa-js"></i>
+              JavaScript
+            </div>
+
+            <div class="skill">
+              <i class="fa-brands fa-react"></i>
+              React
+            </div>
+
+            <div class="skill">
+              <i class="fa-solid fa-mobile-screen"></i>
+              Responsividade
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="skill-category">
+
+          <div class="skill-category-header">
+
+            <i class="fa-solid fa-server"></i>
+
+            <div>
+              <span>02</span>
+              <h3>Back-end</h3>
+            </div>
+
+          </div>
+
+          <div class="skills">
+
+            <div class="skill">
+              <i class="fa-brands fa-node-js"></i>
+              Node.js
+            </div>
+
+            <div class="skill">
+              <i class="fa-solid fa-code-branch"></i>
+              Express
+            </div>
+
+            <div class="skill">
+              <i class="fa-solid fa-plug"></i>
+              API REST
+            </div>
+
+            <div class="skill">
+              <i class="fa-solid fa-layer-group"></i>
+              Prisma ORM
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="skill-category">
+
+          <div class="skill-category-header">
+
+            <i class="fa-solid fa-database"></i>
+
+            <div>
+              <span>03</span>
+              <h3>Banco de dados</h3>
+            </div>
+
+          </div>
+
+          <div class="skills">
+
+            <div class="skill">
+              <i class="fa-solid fa-database"></i>
+              PostgreSQL
+            </div>
+
+            <div class="skill">
+              <i class="fa-solid fa-database"></i>
+              MySQL
+            </div>
+
+            <div class="skill">
+              <i class="fa-solid fa-leaf"></i>
+              MongoDB
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="skill-category">
+
+          <div class="skill-category-header">
+
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+
+            <div>
+              <span>04</span>
+              <h3>Ferramentas</h3>
+            </div>
+
+          </div>
+
+          <div class="skills">
+
+            <div class="skill">
+              <i class="fa-brands fa-git-alt"></i>
+              Git
+            </div>
+
+            <div class="skill">
+              <i class="fa-brands fa-github"></i>
+              GitHub
+            </div>
+
+            <div class="skill">
+              <i class="fa-solid fa-cloud-arrow-up"></i>
+              Render
+            </div>
+
+            <div class="skill">
+              <i class="fa-solid fa-globe"></i>
+              Netlify
+            </div>
+
+            <div class="skill">
+              <i class="fa-solid fa-bolt"></i>
+              Vite
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section projects-section reveal">
+
+      <div class="section-header">
+
+        <span class="section-label">Meu trabalho</span>
+
+        <h2>
+          Projetos que mostram minha
+          <span>evolução como desenvolvedora</span>
+        </h2>
+
+        <p>
+          Aplicações desenvolvidas utilizando tecnologias de Front-end,
+          Back-end, APIs e bancos de dados.
+        </p>
+
+      </div>
+
+
+      <!-- PROJETO PRINCIPAL -->
+      <article class="featured-project">
+
+        <div class="featured-project-decoration" aria-hidden="true">
+
+          <span class="decoration-number">01</span>
+
+          <i class="fa-solid fa-burger"></i>
+
+          <span class="decoration-code">
+            Full Stack Application
+          </span>
+
+        </div>
+
+        <div class="featured-project-content">
+
+          <div class="project-top">
+
+            <span class="project-category">
+              Projeto principal
+            </span>
+
+            <span class="project-status">
+              <span></span>
+              Disponível online
+            </span>
+
+          </div>
+
+          <h3>DevBurguer</h3>
+
+          <p>
+            Plataforma Full Stack para uma hamburgueria online, com catálogo de
+            produtos, carrinho de compras, autenticação, pagamentos e painel
+            administrativo para gerenciamento de produtos, categorias e pedidos.
+          </p>
+
+          <ul class="project-features">
+
+            <li>
+              <i class="fa-solid fa-check"></i>
+              Autenticação de clientes e administradores
+            </li>
+
+            <li>
+              <i class="fa-solid fa-check"></i>
+              Integração com Stripe para pagamentos
+            </li>
+
+            <li>
+              <i class="fa-solid fa-check"></i>
+              Painel administrativo completo
+            </li>
+
+            <li>
+              <i class="fa-solid fa-check"></i>
+              API REST integrada ao PostgreSQL
+            </li>
+
+          </ul>
+
+          <div class="project-techs">
+
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>Prisma</span>
+            <span>PostgreSQL</span>
+            <span>Stripe</span>
+
+          </div>
+
+          <div class="project-buttons">
+
+            <a
+              class="project-btn primary"
+              href="https://dev-burger-cuck.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Ver projeto
+            </a>
+
+            <a
+              class="project-btn secondary"
+              href="https://github.com/cassymari/Dev-Burger"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github"></i>
+              Ver código
+            </a>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- OUTROS PROJETOS EM DESTAQUE -->
+      <div class="projects-grid featured-grid">
+
+        <article class="project-card">
+
+          <div class="project-card-top">
+
+            <div class="project-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+
+            <span class="project-number">02</span>
+
+          </div>
+
+          <span class="project-category">Landing Page</span>
+
+          <h3>DevClub Landing Page</h3>
+
+          <p>
+            Landing page desenvolvida em React com componentes reutilizáveis,
+            animações, carrosséis, modal de matrícula e layout responsivo.
+          </p>
+
+          <div class="project-details">
+
+            <span>
+              <i class="fa-solid fa-circle-check"></i>
+              Componentização
+            </span>
+
+            <span>
+              <i class="fa-solid fa-circle-check"></i>
+              Design responsivo
+            </span>
+
+            <span>
+              <i class="fa-solid fa-circle-check"></i>
+              API integrada
+            </span>
+
+          </div>
+
+          <div class="project-techs">
+
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Styled Components</span>
+
+          </div>
+
+          <div class="project-buttons">
+
+            <a
+              class="project-btn primary"
+              href="https://devcassy.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Ver projeto
+            </a>
+
+            <a
+              class="project-btn icon-btn"
+              href="https://github.com/cassymari/DevClub-Landing"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Código do projeto DevClub Landing Page"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <div class="project-card-top">
+
+            <div class="project-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+
+            <span class="project-number">03</span>
+
+          </div>
+
+          <span class="project-category">Aplicação Full Stack</span>
+
+          <h3>Cadastro de Usuários</h3>
+
+          <p>
+            Aplicação integrada a uma API REST que permite cadastrar, listar
+            e excluir usuários por meio de uma interface moderna e responsiva.
+          </p>
+
+          <div class="project-details">
+
+            <span>
+              <i class="fa-solid fa-circle-check"></i>
+              Cadastro de usuários
+            </span>
+
+            <span>
+              <i class="fa-solid fa-circle-check"></i>
+              Listagem dinâmica
+            </span>
+
+            <span>
+              <i class="fa-solid fa-circle-check"></i>
+              Integração com API
+            </span>
+
+          </div>
+
+          <div class="project-techs">
+
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Prisma</span>
+            <span>API REST</span>
+
+          </div>
+
+          <div class="project-buttons">
+
+            <a
+              class="project-btn primary"
+              href="https://cassymari.github.io/cadastro-de-usuarios/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Ver projeto
+            </a>
+
+            <a
+              class="project-btn icon-btn"
+              href="https://github.com/cassymari/cadastro-de-usuarios"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Código do projeto Cadastro de Usuários"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+
+      <!-- PROJETOS MENORES -->
+      <div class="other-projects-header">
+
+        <div>
+          <span class="section-label">Outros projetos</span>
+          <h3>Mais experiências práticas</h3>
+        </div>
+
+        <a
+          href="https://github.com/cassymari"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver todos no GitHub
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+      </div>
+
+
+      <div class="projects-grid compact-projects">
+
+        <article class="project-card compact-card">
+
+          <div class="compact-card-header">
+
+            <div class="project-icon">
+              <i class="fa-solid fa-coins"></i>
+            </div>
+
+            <a
+              href="https://github.com/cassymari/conversor-de-moeda"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Código do Conversor de Moedas"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+          </div>
+
+          <span class="project-category">JavaScript</span>
+
+          <h3>Conversor de Moedas</h3>
+
+          <p>
+            Aplicação que realiza conversões entre diferentes moedas de forma
+            prática e intuitiva.
+          </p>
+
+          <div class="project-techs">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://cassymari.github.io/conversor-de-moeda/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acessar projeto
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+        </article>
+
+
+        <article class="project-card compact-card">
+
+          <div class="compact-card-header">
+
+            <div class="project-icon">
+              <i class="fa-solid fa-key"></i>
+            </div>
+
+            <a
+              href="https://github.com/cassymari/Gerador-de-senhas"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Código do Gerador de Senhas"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+          </div>
+
+          <span class="project-category">JavaScript</span>
+
+          <h3>Gerador de Senhas</h3>
+
+          <p>
+            Gerador de senhas aleatórias criado para produzir combinações
+            mais seguras de maneira rápida.
+          </p>
+
+          <div class="project-techs">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://cassymari.github.io/Gerador-de-senhas/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acessar projeto
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+        </article>
+
+
+        <article class="project-card compact-card">
+
+          <div class="compact-card-header">
+
+            <div class="project-icon">
+              <i class="fa-solid fa-hand-scissors"></i>
+            </div>
+
+            <a
+              href="https://github.com/cassymari/Game-Jokenpo."
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Código do Dev Jokenpô"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+          </div>
+
+          <span class="project-category">Jogo interativo</span>
+
+          <h3>Dev Jokenpô</h3>
+
+          <p>
+            Jogo de pedra, papel e tesoura contra o computador, com placar e
+            resultados dinâmicos.
+          </p>
+
+          <div class="project-techs">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://cassymari.github.io/Game-Jokenpo./"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acessar projeto
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+        </article>
+
+
+        <article class="project-card compact-card">
+
+          <div class="compact-card-header">
+
+            <div class="project-icon">
+              <i class="fa-solid fa-dice"></i>
+            </div>
+
+            <a
+              href="https://github.com/cassymari/Dev-Sorteioo"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Código do DevSorteio"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+          </div>
+
+          <span class="project-category">JavaScript</span>
+
+          <h3>DevSorteio</h3>
+
+          <p>
+            Aplicação para sortear números aleatórios dentro de um intervalo
+            definido pelo usuário.
+          </p>
+
+          <div class="project-techs">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://cassymari.github.io/Dev-Sorteioo/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acessar projeto
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+        </article>
+
+
+        <article class="project-card compact-card">
+
+          <div class="compact-card-header">
+
+            <div class="project-icon">
+              <i class="fa-solid fa-puzzle-piece"></i>
+            </div>
+
+            <a
+              href="https://github.com/cassymari/Jogo-da-memoria"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Código do Jogo da Memória"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+          </div>
+
+          <span class="project-category">Jogo interativo</span>
+
+          <h3>Jogo da Memória</h3>
+
+          <p>
+            Jogo com cronômetro, animação 3D nas cartas e diferentes níveis
+            de dificuldade.
+          </p>
+
+          <div class="project-techs">
+            <span>JavaScript</span>
+            <span>Animações 3D</span>
+            <span>Responsivo</span>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://cassymari.github.io/Jogo-da-memoria/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acessar projeto
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+        </article>
+
+
+        <article class="project-card compact-card">
+
+          <div class="compact-card-header">
+
+            <div class="project-icon">
+              <i class="fa-solid fa-calculator"></i>
+            </div>
+
+            <a
+              href="https://github.com/cassymari/calculadora"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Código da Calculadora"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+          </div>
+
+          <span class="project-category">JavaScript</span>
+
+          <h3>Calculadora</h3>
+
+          <p>
+            Calculadora funcional para realizar operações matemáticas de
+            maneira simples e rápida.
+          </p>
+
+          <div class="project-techs">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://cassymari.github.io/calculadora/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acessar projeto
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTATO -->
+    <section id="contato" class="contact section reveal">
+
+      <div class="contact-container">
+
+        <div class="contact-content">
+
+          <span class="section-label">Entre em contato</span>
+
+          <h2>
+            Vamos construir algo
+            <span>incrível juntos?</span>
+          </h2>
+
+          <p>
+            Estou disponível para oportunidades como Desenvolvedora Full Stack
+            Júnior, projetos freelancers e novas conexões profissionais.
+          </p>
+
+          <a
+            href="mailto:cassynascimento28@gmail.com"
+            class="contact-email"
+          >
+            <i class="fa-regular fa-envelope"></i>
+
+            <span>
+              <small>Envie uma mensagem</small>
+              cassynascimento28@gmail.com
+            </span>
+          </a>
+
+        </div>
+
+        <div class="contact-buttons">
+
+          <a
+            href="https://github.com/cassymari"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-btn"
+          >
+            <i class="fa-brands fa-github"></i>
+
+            <span>
+              <small>Veja meus códigos</small>
+              GitHub
+            </span>
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/cassiane-m-nascimento"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-btn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+
+            <span>
+              <small>Conecte-se comigo</small>
+              LinkedIn
+            </span>
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+          <a
+            href="https://wa.me/5521995874864?text=Olá%20Cassiane,%20vi%20seu%20portfólio."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-btn"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+
+            <span>
+              <small>Fale diretamente</small>
+              WhatsApp
+            </span>
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- RODAPÉ -->
   <footer>
-    © 2026 Cassiane M. Nascimento • Full Stack Developer
+
+    <a href="#inicio" class="footer-logo">
+      Cassiane<span>.dev</span>
+    </a>
+
+    <p>
+      Desenvolvido por Cassiane M. Nascimento
+    </p>
+
+    <span>
+      © 2026 • Full Stack Developer
+    </span>
 
   </footer>
+
+
+  <!-- BOTÃO WHATSAPP -->
+  <a
+    href="https://wa.me/5521995874864?text=Olá%20Cassiane,%20vi%20seu%20portfólio."
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Entrar em contato pelo WhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+
   <script>
-    function reveal() {
+
+    function revealElements() {
 
       const reveals = document.querySelectorAll(".reveal");
 
@@ -286,14 +1166,24 @@
 
     }
 
-    window.addEventListener("scroll", reveal);
-    window.addEventListener("load", reveal);
+    window.addEventListener("scroll", revealElements);
+    window.addEventListener("load", revealElements);
+
+
+    const header = document.querySelector(".header");
+
+    window.addEventListener("scroll", () => {
+
+      if (window.scrollY > 50) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+
+    });
 
   </script>
-  <a href="https://wa.me/5521995874864?text=Olá%20Cassiane,%20vi%20seu%20portfólio." class="whatsapp-float"
-    target="_blank">
-    <i class="fa-brands fa-whatsapp"></i>
-  </a>
+
 </body>
 
 </html>
